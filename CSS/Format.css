@@ -1,0 +1,66 @@
+h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #3B4CCA;
+}
+
+.O{
+  margin-top: 1px;
+  height: 37.5px;
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+li{
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li:first-child{
+  margin-top: 70px;
+}
+
+body{
+  background-image:url("img/bacgroung.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.button{
+  text-decoration: none;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  margin:10px 25px;
+  padding: 3px;
+  text-transform: uppercase;
+}
+
+.button:hover{
+  padding: 10px;
+  border-radius: 25%;
+}
+
+.modal-content{
+  background: url('img/pokedex.jpg');
+  text-align: center;
+}
+
+.modal-header > h2:first-letter {
+  text-transform: uppercase;
+}
+
+.modal-header{
+  color: #CC0000;
+}
+
+.modal-body{
+  color: #3B4CCA;
+  font-size: 25px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: solid;
+}
+
